@@ -375,6 +375,7 @@
     margin-right: 40px;
   }
 
+  
   .about-info .section-title {
     margin: 40px 0 40px 0;
   }
@@ -385,22 +386,32 @@
 
   .skill-thumb strong {
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: auto;
+    margin-top: auto;
   }
 
-  .skill-thumb .progress {
-    background: #ffffff;
-    border-radius: 5px;
-    box-shadow: none;
-    height: 3px;
-    margin-bottom: 25px;
-  }
+  .meter { 
+    height: 8px;
+    position: relative;
+    background: #f3efe6;
+    overflow: hidden;
+}
 
-  .skill-thumb .progress-bar {
-    background: #ff0202;
-    box-shadow: none;
-  }
+.meter span {
+    display: block;
+    height: 100%;
+}
 
+.progress {
+    background-color: #ce2727;
+    animation: progressBar 2.5s ease-in-out;
+    animation-fill-mode:both; 
+}
+
+@keyframes progressBar {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
 
 
   /*---------------------------------------
