@@ -404,9 +404,10 @@
 
 .progress {
     background-color: #ce2727;
-    animation: progressBar 3.5s ease-in-out;
+    animation: progressBar 4s ease-in-out;
     animation-fill-mode:both; 
     overflow: visible;
+    appearance: sho;
 }
 
 @keyframes progressBar {

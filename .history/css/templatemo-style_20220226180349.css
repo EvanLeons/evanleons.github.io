@@ -391,10 +391,10 @@
   }
 
   .meter { 
-    height: 15px;
+    height: 20px;
     position: relative;
-    background: #e6202039;
-    overflow: visible;
+    background: #f3efe6;
+    overflow: hidden;
 }
 
 .meter span {
@@ -404,7 +404,7 @@
 
 .progress {
     background-color: #ce2727;
-    animation: progressBar 3.5s ease-in-out;
+    animation: progressBar 4s ease-in-out;
     animation-fill-mode:both; 
     overflow: visible;
 }
